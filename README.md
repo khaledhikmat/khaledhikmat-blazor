@@ -62,5 +62,6 @@ Several Errors:
 - func start to start locally
 - swa start http://localhost:5000 --run "dotnet run --project Client/Client.csproj" --api-location Api
 - Rounting: https://www.c-sharpcorner.com/article/routing-in-azure-function/
-- VS Code got into a problem where it could not resolve any application mode.....close VS Code and restart....make sure yoy close VS Code.
+- VS Code got into a problem where it could not resolve any application mode.....close VS Code and restart....make sure you close VS Code completely (all instances).
 - I opted to only use the isolated mode.
+- Configuration goes in local.setting.json ....but when in Azure, they must be added to application configuration.

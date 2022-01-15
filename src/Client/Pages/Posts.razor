@@ -1,11 +1,10 @@
-﻿@page "/fetchdata"
-@using khaledhikmat.Shared 
+﻿@page "/posts"
 @using khaledhikmat.Shared.Models 
 @inject HttpClient Http
 
 <h1>Posts</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>This lists all posts from Cosmic.</p>
 
 @if (posts == null)
 {
