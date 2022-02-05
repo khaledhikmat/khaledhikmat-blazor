@@ -30,8 +30,6 @@ namespace khaledhikmat.Api.Services
         {
             var bucketSlug = _config.GetCosmicPostBucketSlug();
             var readKey = _config.GetCosmicReadKey();
-            // var bucketSlug = "3dd58860-6f6f-11ec-be0e-a11d56f14ce0";//_configuration["Cosmic:ReadKey"];
-            // var readKey = "e0zFW0916PMAte1GfNdjpvsbynePOxJNQKfOZya6VjxxDYIlk7";//_configuration["Cosmic:PostBucket"];
 
             var queryParameters = new Dictionary<string, string>()
             {
@@ -65,8 +63,6 @@ namespace khaledhikmat.Api.Services
         {
             var bucketSlug = _config.GetCosmicPostBucketSlug();
             var readKey = _config.GetCosmicReadKey();
-            // var bucketSlug = "3dd58860-6f6f-11ec-be0e-a11d56f14ce0";//_configuration["Cosmic:ReadKey"];
-            // var readKey = "e0zFW0916PMAte1GfNdjpvsbynePOxJNQKfOZya6VjxxDYIlk7";//_configuration["Cosmic:PostBucket"];
 
             var queryParameters = new Dictionary<string, string>()
             {
